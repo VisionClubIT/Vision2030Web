@@ -139,9 +139,9 @@
         </li>
                        
                         <li>
-                            <a href="/">
+                            <!-- <a href="/">
 EN   
-</a>
+</a> -->
                         </li>
                         
                     </ul>
@@ -357,7 +357,7 @@ EN
                             <h2 class="">
                                  يبني المستقبل من وليد حاضره، على أرض ماضيه
                             </h2>
-                            <a href="javascript:;" class="animated-link" style="opacity:0;"><strong></strong></a>
+                            <!-- <a href="javascript:;" class="animated-link" style="opacity:0;"><strong></strong></a> -->
                         </div>
                     </div>
                     <div class="swiper-slide">
