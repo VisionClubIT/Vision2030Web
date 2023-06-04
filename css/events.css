@@ -1,3 +1,4 @@
+@media (min-width: 960px) {
 .body2 {
     width: 100vw;
     height: 100vh;
@@ -7,6 +8,7 @@
     justify-content: center;
     margin-bottom: 500px;
   }
+
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -188,3 +190,4 @@
     cursor: pointer;
     text-decoration: underline;
   }  
+}

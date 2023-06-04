@@ -42,7 +42,7 @@ require_once ('config/database.php');
 
 		  <div class='card-stats'>
 	      <div class='stat border'>
-	      <a  class='value' href= '$tweet' >اقرأ المزيد</a>
+	      <a  class='value' href= '$tweet' >".$row['buttonText']."</a>
 		  </div>
 		  </div>
 		  </div>";
