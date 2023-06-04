@@ -88,7 +88,7 @@ include('Dynamic/Alert.php');
                       </script>
         </section> 
         <section class=" c-block b-header">
-            <img class="a" src="img/Rectangle.svg">&nbsp;
+            <!-- <img class="a" src="img/Rectangle.svg">&nbsp; -->
             <!--<img  class="s"  src="img/black-quote-marks-isolated-white-flat-reading-icon-vector-illustration-quotation-logo-140878774 1.svg">&nbsp;-->
 
 </section>              
@@ -241,7 +241,7 @@ var modern_tribe_config = {"images_url":"https:\/\/www.harvard.edu\/wp-content\/
     <section class="c-block--remove-top-padding c-block b-featured-stories">
 
     <section class=" c-block b-heade">
-        <img class="a" src="img/Rectangle.svg">&nbsp;
+        <!-- <img class="a" src="img/Rectangle.svg">&nbsp; -->
 
         <!--<img  class="s"  src="img/ddd.svg">&nbsp;-->
 
