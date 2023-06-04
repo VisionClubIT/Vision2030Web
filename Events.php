@@ -23,8 +23,8 @@ require_once ('config/database.php');
                 <button class="btn" onclick="filterSelection('_2020')">2020</button>
                 <button class="btn" onclick="filterSelection('_2019')">2019</button>
                 <button class="btn" onclick="filterSelection('_2018')">2018</button>
-            </div>
-       <div class = "body2">      -->
+            </div>-->
+       <div class = "body2">      
        <?php
        $result = mysqli_query($con,"SELECT * FROM `events`");
 	   while($row = mysqli_fetch_assoc($result)) {   
