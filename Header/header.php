@@ -221,7 +221,7 @@ EN
                     </li>
   
                 </ul>
-                <p class="mobile-menu-copy">&copy; قريبا!</p>
+                <p class="mobile-menu-copy">&copy;2030 نادي الرؤية </p>
             </nav>
             <div class="search-container shown">
                 <a class="search-link" href="javascript:;">
