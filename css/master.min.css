@@ -1101,9 +1101,11 @@ swiper
     }
   }
   
+  @media (min-width: 960px) {
   .b-interstitial__figure.c-image--overlay-left .c-image__image:after {
     display: none;
   }
+}
   
   @media (min-width: 960px) {
     .b-interstitial__figure.c-image--overlay-left .c-image__image:after {
@@ -1814,10 +1816,12 @@ swiper
   /* -----------------------------------------------------------------------------
    * Media + Text: Media
    * ----------------------------------------------------------------------------- */
-  
+   @media (min-width: 990px) {
   .b-media-text__img-wrap {
     position: relative;
   }
+}
+  
   
   /* CASE: Width: Grid, Media: Left/Right */
   

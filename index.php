@@ -33,7 +33,7 @@ include('Dynamic/Alert.php');
  
 
 
-        <section Align="center" class=" c-block b-header">
+        <!-- <section Align="center" class=" c-block b-header">
                     <article Align="center" class="article-card">
                         <div Align="center" class="img-box">
                           <img src="img/theline.jpeg" alt="" class="article-banner">
@@ -49,7 +49,7 @@ include('Dynamic/Alert.php');
 
                           <div Align="center" class="acticle-content-footer">
                             <div class="author">
-                              <!--<img src="img/VCLogo.png" alt="" class="author-avater">-->
+                              <!-- <img src="img/VCLogo.png" alt="" class="author-avater">-->
                     
                               <div class="author-info">
                                 <a href="#"> 
@@ -58,10 +58,10 @@ include('Dynamic/Alert.php');
                                 <div class="publish-date"></div>
                               </div>
                             </div>
-                            <div class="share">
+                            <!-- <div class="share">
                               <button class="share-button">
                                 <ion-icon name="arrow-redo"></ion-icon>
-                              </button>
+                              </button> -->
                               <!--<div class="share-option">-->
                                 <!--<span>مشاركة</span>-->
                     
@@ -75,7 +75,7 @@ include('Dynamic/Alert.php');
                                 <!--  <ion-icon name="logo-instagram"></ion-icon>-->
                                 <!--</a>-->
                               <!--</div>-->
-                            </div>
+                            <!-- </div> -->
                           </div>
                         </div>
                       </article>
@@ -86,7 +86,7 @@ include('Dynamic/Alert.php');
                           shareOption.classList.toggle('active');
                         });
                       </script>
-        </section>
+        </section> 
         <section class=" c-block b-header">
             <img class="a" src="img/Rectangle.svg">&nbsp;
             <!--<img  class="s"  src="img/black-quote-marks-isolated-white-flat-reading-icon-vector-illustration-quotation-logo-140878774 1.svg">&nbsp;-->
