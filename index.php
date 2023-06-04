@@ -540,8 +540,8 @@ $
 
 
 </html>
-<!-- <?php include('review.php');
-?> -->
+<?php include('review.php');
+?>
 <?php include('Footer/footer.php');
 
 ?>
