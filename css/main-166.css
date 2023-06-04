@@ -5103,7 +5103,8 @@ header.mobile-menu-opened .mobile-menu-icon a svg circle {
 
 header.mobile-menu-opened .nav-list .nav-item ul {
     -webkit-box-shadow: none;
-    box-shadow: none
+    box-shadow: none;
+    
 }
 
 .mobile-menu-social,
@@ -5880,7 +5881,7 @@ header.mobile-menu-opened .nav-list .nav-item ul {
         font-size: 2.8rem;
         line-height: 3.5rem;
         display: inline-block !important;
-        color: #12335e;
+        color: #FFFF;
         z-index: 1
     }
 }
@@ -5907,7 +5908,7 @@ header.mobile-menu-opened .nav-list .nav-item ul {
         top: 30%
     }
     header nav .nav-list .nav-item .nav-link svg path {
-        stroke: #12335e
+        stroke: #FFFF
     }
 }
 
@@ -6921,7 +6922,7 @@ header.search-opened .mobile-menu-icon span svg circle {
 
 @media(max-width: 1279px) {
     .touchable-device header .nav-list .nav-item.mobile-accordion .nav-link {
-        color: #12335e
+        color: #FFFF
     }
 }
 
@@ -6936,7 +6937,7 @@ header.search-opened .mobile-menu-icon span svg circle {
 
 @media(max-width: 1279px) {
     .touchable-device header .nav-list .nav-item.mobile-accordion .nav-link svg path {
-        stroke: #12335e
+        stroke: #FFFF
     }
 }
 
@@ -7648,7 +7649,7 @@ footer .footer-bottom .footer-bottom-right ul li a svg path {
 }
 
 .link-with-text-container {
-    background-color: #000
+    background-color: #FFFF
 }
 
 .component-row {
