@@ -33,7 +33,7 @@ include('Dynamic/Alert.php');
  
 
 
-        <!-- <section Align="center" class=" c-block b-header">
+        <section Align="center" class=" c-block b-header">
                     <article Align="center" class="article-card">
                         <div Align="center" class="img-box">
                           <img src="img/theline.jpeg" alt="" class="article-banner">
@@ -49,7 +49,7 @@ include('Dynamic/Alert.php');
 
                           <div Align="center" class="acticle-content-footer">
                             <div class="author">
-                              <!-- <img src="img/VCLogo.png" alt="" class="author-avater">-->
+                              <!-- <img src="img/VCLogo.png" alt="" class="author-avater">
                     
                               <div class="author-info">
                                 <a href="#"> 
