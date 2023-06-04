@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+
 .body2 {
     width: 100vw;
     height: 100vh;
@@ -9,6 +9,7 @@
     margin-bottom: 500px;
   }
 
+  @media (max-width: 960px) {
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -22,6 +23,7 @@
     transition: 0.5s ease;
     margin:30px;
   }
+}
   .card-image {
     grid-area: image;
     background: no-repeat center / contain;
@@ -190,4 +192,4 @@
     cursor: pointer;
     text-decoration: underline;
   }  
-}
+
