@@ -95,7 +95,7 @@ include_once 'Dynamic/Alert.php';
 </span>
 </a> -->
                     </div>
-                    <img class="project-logo" src="media/heaf0eqy/red-sea-logo.png" data-aos="fade-right" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
+                    <img class="project-logo" src="" data-aos="fade-right" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
                     <div class="project-background-slider owl-carousel owl-theme">
                         <div class="project-background" style="background:linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,.2)), url('/media/w4vfurzv/trsdc-prst-09.jpg')">
                         </div>
@@ -135,9 +135,9 @@ include_once 'Dynamic/Alert.php';
                 </div>
             </div>
             <div class="view-all-btn-mobile-container" style="background-image: url('/img/home/giga-projects-bg.png')">
-                <a class="view-all-btn" href="/">
+                <!-- <a class="view-all-btn" href="/">
 $
-</a>
+</a> -->
             </div>
         </div>
     </section>
