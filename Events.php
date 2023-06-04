@@ -16,15 +16,15 @@ require_once ('config/database.php');
     <script src="js/filterEv.js" ></script>
     
 </head>
-<body> date
-             <div id="myBtnContainer">
+<body> 
+             <!-- <div id="myBtnContainer">
                 <button class="btn active" onclick="filterSelection('_2022')">2022</button>
                 <button class="btn" onclick="filterSelection('_2021')">2021</button>
                 <button class="btn" onclick="filterSelection('_2020')">2020</button>
                 <button class="btn" onclick="filterSelection('_2019')">2019</button>
                 <button class="btn" onclick="filterSelection('_2018')">2018</button>
             </div>
-       <div class = "body2">     
+       <div class = "body2">      -->
        <?php
        $result = mysqli_query($con,"SELECT * FROM `events`");
 	   while($row = mysqli_fetch_assoc($result)) {   
