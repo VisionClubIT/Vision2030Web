@@ -1,0 +1,8 @@
+# حماية الوصول الى المسارات
+#options - indexes
+
+# طياعة رسالة على صفحة ٤٠٣
+#ErrorDocument 403 " مرحبا وصولك غير مصرح له ";
+
+php_flag display_startup_errors on
+php_flag display_errors on

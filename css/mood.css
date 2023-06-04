@@ -1,0 +1,197 @@
+body.dark {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+}
+.title {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+.theme-toggle-button {
+  background-color: #222;
+  color:#d3d3d3;
+  cursor: pointer;
+  margin-left: 10rem;
+}
+.theme-toggle-button .icon 
+.theme-toggle-button:hover,
+.theme-toggle-button:focus {
+  transform: scale(1.1);
+}
+.sun-moon-container {
+  --rotation: 0;
+margin-left: 101rem;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  height: 90vmin;
+  width: 55vmin;
+  transform: rotate(calc(var(--rotation) * 1deg));
+  transition: transform var(--transition-delay);
+}
+.sun,
+.moon {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  fill:rgb(150, 150, 150);
+  align-items: center;
+}
+.sun {
+  top: 3.5%;
+  opacity: 1;
+fill: #b9b918;}
+.dark .sun {
+  opacity: 0;
+}
+.moon {
+  bottom: 5%;
+  opacity: 0;
+  transform: rotate(180deg);
+  width: 50%;
+}
+.dark .moon {
+  opacity: 1;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.text-center {
+text-align: center;
+margin-bottom: 50px;
+}
+.project-counter-wrp {
+--background-color: rgb(51, 102, 78);
+}
+.project-counter-wrp ul {
+list-style-type: none;
+display: flex;
+}
+.project-counter-wrp li {
+width: 100%;
+height: 100%;
+padding: 30px 0px;
+text-align: center;
+transition: 0.2s linear;
+}
+.project-counter-wrp li:hover {
+transform: scale(1.1);
+}
+.project-counter-wrp li:nth-child(1) {
+background: #d0d066e5;
+margin-right: 2rem;
+}
+.project-counter-wrp li:nth-child(2) {
+background: #d0d066e5;
+margin-right: 1.9rem;
+}
+.project-counter-wrp li:nth-child(3) {
+background: #d0d066e5;
+margin-right: 2rem;}
+.project-counter-wrp li p.number {
+font-size: 30px;
+padding: 0;
+font-weight:bold;
+}
+.project-counter-wrp li p {
+color: rgb(255, 255, 255);
+font-size: 18px;
+margin: 0;
+padding: 10px;
+}
+.project-counter-wrp li span {
+width: 60px;
+background: rgb(101, 113, 126);
+height: 2px;
+display: block;
+margin: 0 auto;
+}
+.project-counter-wrp li i {
+vertical-align: middle;
+font-size: 36px;
+color: #527a9bd0;
+}
+@media (max-width: 991px) {
+  body.dark {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+  }
+  .title {
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+  .theme-toggle-button {
+    background-color: #222;
+    color:#D0D066;
+    cursor: pointer;
+    background-color: #222;
+    color:#D0D066;
+    cursor: pointer;
+    margin-right:5.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .theme-toggle-button .icon 
+  .theme-toggle-button:hover,
+  .theme-toggle-button:focus {
+    transform: scale(1.1);
+  }
+  .sun-moon-container {
+    cursor: pointer;
+    margin-right:29rem;
+  }
+  .sun,
+  .moon {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    fill:rgb(150, 150, 150);
+    align-items: center;
+  }
+  .sun {
+    top: 3.5%;
+    opacity: 1;
+  fill: #D0D066;}
+  .dark .sun {
+    opacity: 0;
+  }
+  .moon {
+    bottom: 5%;
+    opacity: 0;
+    transform: rotate(180deg);
+    width: 50%;
+  }
+  .dark .moon {
+    opacity: 1;
+  }
+}
+.clock
+{ 
+    margin-left: 50.5rem;
+    margin-top: 20rem;
+}
+.flip-clock-dot
+{
+ background: rgb(131, 131, 131);
+}
+.flip-clock-meridium a
+{
+    color: #464646;
+}
+@media (max-width: 991px) {
+.clock
+{
+    width: 100%;
+    margin-left: 0;
+}
+.flip-clock-dot
+{
+    background: #ccc;
+}
+.flip-clock-meridium a
+{
+    color: #13456e;
+}
+}

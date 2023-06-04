@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;500&display=swap');
+
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.box{
+    display: flex;
+  flex-direction: row-reverse;
+  float:right;
+  justify-content: center;
+  width: 100%;
+}
+/*style btns*/
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: medium;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  /* Add a dark background to the active button */
+  .active {
+    background-color: rgba(0,136,169,1);;
+    color: white;
+  }
+
+  #myBtnContainer{
+    padding: 48px;
+  }
+/*END style btns*/
+
+
+.events-container{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    max-width:1300px;
+    width: 100%;
+    margin:0 100px;
+    overflow: hidden;
+}
+
+.year{
+    font-size: 35px;
+    text-align: right;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 48px;
+}
+
+.tag-cont{
+    border-top: 1px solid #DDDDDD;
+    position: relative;
+    display:block;
+ }
+
+ .show{
+    display: block;
+ }
+
+.event{
+    background-color: white;
+    display: flex;
+    margin: 0px;
+    float: left;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.event-right{
+    border-left: 2px solid #DDDDDD;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0,136,169,1);
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+.upcoming{
+    background-color: rgba(153, 205, 50, 0.508);
+    color: rgb(85, 113, 28);
+}
+
+.date{
+    font-size: 56px;
+}
+.month{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px;
+    width: 600px;
+}
+
+h3.event-title{ 
+    font-size: 24px;
+    margin: 24px 0px 10px 0px;
+}
+
+.event-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    margin: 24px 0;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.event-location img{
+    padding-left:8px;
+}
+
+img.event-Img{
+    width: 450px;
+    height: auto;
+    z-index: -1;
+    margin-right: 110rem;
+}
+
+
+
+@media (max-width:550x) {
+    .event{
+        flex-direction: column;
+    }
+    .event .event-right{
+        padding: 0;
+    }
+    .event .event-right .event-date .date, .event .event-right .event-date .month{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .event .event-right .event-date{
+        padding: 10px 0;
+    }
+}

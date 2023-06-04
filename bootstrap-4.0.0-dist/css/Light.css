@@ -1,0 +1,58 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 2rem;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 15rem;
+  }
+h2{
+font-size: 5em;
+color: rgb(119, 119, 119);
+ font-weight: 500;
+}
+h2 span{
+animation: animate 10s linear infinite;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes animate
+ {
+    0%,80%
+    {
+  color: rgb(134, 134, 134);
+  text-shadow: none;
+    }
+    100%
+    {
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 40px #fff,
+                     0 0 80px #fff,
+                     0 0 120px #fff,
+                     0 0 300px rgb(34, 91, 109);
+    }
+}
+@media screen and (max-width: 300px) {
+    :root {
+      /**
+       * Typography 
+       */
+      --fs-13: 12px;
+    }
+    .bannerr  {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        overflow: hidden;
+        margin-left: 4rem;
+    }
+h2{
+    grid-template-columns: 1fr;
+            max-width: 500px;
+            overflow: hidden;
+            margin-left: 4rem;
+            font-size: 4em;
+            color: #333;
+            font-weight: 500;
+}
+}
