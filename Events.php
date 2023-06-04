@@ -24,15 +24,13 @@ require_once ('config/database.php');
                 <button class="btn" onclick="filterSelection('_2019')">2019</button>
                 <button class="btn" onclick="filterSelection('_2018')">2018</button>
             </div>-->
-       <div class = "body2">  
-        <div class='row'>    
+       <div class = "body2">      
        <?php
        $result = mysqli_query($con,"SELECT * FROM `events`");
 	   while($row = mysqli_fetch_assoc($result)) {   
       
         $tweet= $row['tweet'];
         echo "
-        <div class='column'>
 		<div class='card'>
 
 		  <div  style='background-image: url( ".$row['image_events']."  );'  class='card-image'>  </div>
@@ -47,11 +45,9 @@ require_once ('config/database.php');
 	      <a  class='value' href= '$tweet' >".$row['buttonText']."</a>
 		  </div>
 		  </div>
-		  </div>
-          </div>";
+		  </div>";
 		}
 		?>
-        </div>
 <!-- -->
 </div>
 </body>

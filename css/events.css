@@ -9,28 +9,7 @@
     margin-bottom: 500px;
   }
 
-  .row{
-    margin: 0 -5px;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .column{
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-  }
-
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-
+  @media (max-width: 600px) {
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -105,6 +84,8 @@
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
+
+}
   .content-wrapper {
     width: 1050px;
     margin: 0 auto;
