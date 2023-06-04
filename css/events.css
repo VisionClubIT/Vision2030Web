@@ -9,7 +9,28 @@
     margin-bottom: 500px;
   }
 
-  @media (max-width: 960px) {
+  .row{
+    margin: 0 -5px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -23,7 +44,7 @@
     transition: 0.5s ease;
     margin:30px;
   }
-}
+
   .card-image {
     grid-area: image;
     background: no-repeat center / contain;
