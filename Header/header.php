@@ -384,11 +384,11 @@ EN
                     <div class="swiper-slide">
                         <div class="home-hero-slider-item">
                             <picture>
-                                <source media="(max-width: 376px)" srcset="img/theline.jpeg">
+                            <source media="(max-width: 376px)" srcset="img/theline.webp">
                                 <source media="(max-width: 768px)" srcset="media/ucfc0nuh/banner-sizes-09.jpg">
-                                <source media="(max-width: 1440px)" srcset="img/theline.jpeg">
-                                <source srcset="img/theline.jpeg">
-                                <img src="img/theline.jpeg" alt=" ">
+                                <source media="(max-width: 1440px)" srcset="img/theline.webp">
+                                <source srcset="img/theline.webp">
+                                <img src="img/theline.webp" alt=" ">
                             </picture>
                             <i class="quote">&ldquo;</i>
                             <h2 class="">
@@ -414,9 +414,9 @@ EN
                         <img src="img/Ellipse 4.svg" /><span></span>
                     </div>
                 </div>
-                <div class="slide-index">
+                <!-- <div class="slide-index">
                     <span class="current-slide"></span> / <span class="total-slide"></span>
-                </div>
+                </div> -->
             </div>
 <!--            <a href="javascript:;" class="scroll-to-explore">-->
 <!--حرك الفأرة لأسفل-->
