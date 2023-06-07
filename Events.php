@@ -24,32 +24,62 @@ require_once ('config/database.php');
                 <button class="btn" onclick="filterSelection('_2019')">2019</button>
                 <button class="btn" onclick="filterSelection('_2018')">2018</button>
             </div>-->
-       <div class = "body2">      
+       <!-- <div class = "body2">      
        <?php
-       $result = mysqli_query($con,"SELECT * FROM `events`");
-	   while($row = mysqli_fetch_assoc($result)) {   
+       $result = mysqli_query($con,"SELECT * FROM `events`"); 
+	//    while($row = mysqli_fetch_assoc($result)) {   
       
-        $tweet= $row['tweet'];
-        echo "
-		<div class='card'>
+    //     $tweet= $row['tweet'];
+    //     echo "
+	// 	<div class='card'>
 
-		  <div  style='background-image: url( ".$row['image_events']."  );'  class='card-image'>  </div>
-		  <div class='card-text'>
-		  <span class='date'>   ".$row['date']." </span>
-		  <h2> ".$row['name']." <br>  </h2>
-          <h4> ".$row['description']." </h4>
-		  </div>
+	// 	  <div  style='background-image: url( ".$row['image_events']."  );'  class='card-image'>  </div>
+	// 	  <div class='card-text'>
+	// 	  <span class='date'>   ".$row['date']." </span>
+	// 	  <h2> ".$row['name']." <br>  </h2>
+    //       <h4> ".$row['description']." </h4>
+	// 	  </div>
 
-		  <div class='card-stats'>
-	      <div class='stat border'>
-	      <a  class='value' href= '$tweet' >".$row['buttonText']."</a>
-		  </div>
-		  </div>
-		  </div>";
-		}
+	// 	  <div class='card-stats'>
+	//       <div class='stat border'>
+	//       <a  class='value' href= '$tweet' >".$row['buttonText']."</a>
+	// 	  </div>
+	// 	  </div>
+	// 	  </div>";
+	// 	}
 		?>
-<!-- -->
+
+</div>-->
+
+<div class = "row">      
+<?php
+       $result = mysqli_query($con,"SELECT * FROM `events`"); 
+	    while($row = mysqli_fetch_assoc($result)) {   
+      
+         $tweet= $row['tweet'];
+         echo "
+        <div class='column'>
+	 	<div class='card2'>
+
+	 	  <div  style='background-image: url( ".$row['image_events']."  );'  class='card-image'>  </div>
+	 	  <div class='card-text'>
+	 	  <span class='date'>   ".$row['date']." </span>
+	 	  <h2> ".$row['name']." <br>  </h2>
+           <h4> ".$row['description']." </h4>
+	 	  </div>
+
+	 	  <div class='card-stats'>
+	       <div class='stat border'>
+	       <a  class='value' href= '$tweet' >".$row['buttonText']."</a>
+	 	  </div>
+	 	  </div>
+	 	  </div>
+          </div>";
+	 	}
+		?>
+
 </div>
+
 </body>
 </html>
 <?php include_once 'Footer/footer.php'?>
