@@ -215,7 +215,7 @@
   
   body {
     font-family: roboto;
-    /* grid-template-columns: 360px 360px 360px; */
+    grid-template-columns: 360px 360px 360px;
   }
   
   /* Float four columns side by side */
