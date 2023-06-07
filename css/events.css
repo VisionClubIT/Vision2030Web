@@ -1,4 +1,4 @@
-
+@media(max-width: 767px) {
 .body2 {
     width: 100vw;
     height: 100vh;
@@ -8,8 +8,10 @@
     justify-content: center;
     margin-bottom: 500px;
   }
+}
 
 
+@media(max-width: 767px) {
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -23,7 +25,9 @@
     transition: 0.5s ease;
     margin:30px;
   }
+}
 
+@media(max-width: 767px) {
   .card-image {
     grid-area: image;
     background: no-repeat center / contain;
@@ -31,6 +35,9 @@
     border-top-right-radius: 15px;
     background-size:contain;
   }
+}
+
+@media(max-width: 767px) {
   .card-text {
     grid-area: text;
     margin: 15px;
@@ -84,7 +91,7 @@
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
-
+}
 
   .content-wrapper {
     width: 1050px;
