@@ -1,9 +1,9 @@
 <?php
 $connection = [
     'host' => 'localhost',
-    'user'=> 'u631042881_VC2030',
-        'password'=> 'Aa112233',
-    'database' => 'u631042881_VC2030'
+    'user'=> 'u359487913_VC2030',
+        'password'=> 'Vision2030Club',
+    'database' => 'u359487913_VC2030'
 ];
 
 
