@@ -244,7 +244,7 @@
 
     
     display: grid;
-    /* grid-template-columns: 300px; */
+    grid-template-columns: 250px;
     grid-template-rows: 310px 130px 60px;
     grid-template-areas: "image" "text" "stats";
     border-radius: 18px;
