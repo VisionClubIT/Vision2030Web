@@ -48,7 +48,7 @@
   }
   .card-text .date {
     color: rgb(169, 162, 144);
-    font-size:20px;
+    font-size:14px;
     width: 100%;
     height: auto;
   }
@@ -215,7 +215,7 @@
   
   body {
     font-family: roboto;
-    grid-template-columns: 360px 360px 360px;
+    /* grid-template-columns: 360px 360px 360px; */
   }
   
   /* Float four columns side by side */
@@ -242,10 +242,10 @@
     text-align: center;
     background-color: #f1f1f1;
 
-    width: auto;
+    
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 310px 130px 60px;
+    /* grid-template-columns: 300px;
+    grid-template-rows: 310px 130px 60px; */
     grid-template-areas: "image" "text" "stats";
     border-radius: 18px;
     background: white;

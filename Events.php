@@ -65,7 +65,7 @@ require_once ('config/database.php');
 	 	  <div class='card-text'>
 	 	  <span class='date'>   ".$row['date']." </span>
 	 	  <h2> ".$row['name']." <br>  </h2>
-           <h4> ".$row['description']." </h4>
+           <p> ".$row['description']." </p>
 	 	  </div>
 
 	 	  <div class='card-stats'>
