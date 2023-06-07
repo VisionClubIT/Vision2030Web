@@ -48,13 +48,13 @@
   }
   .card-text .date {
     color: rgb(169, 162, 144);
-    font-size:14px;
+    font-size:15px;
     width: 100%;
     height: auto;
   }
   .card-text p {
     color: grey;
-    font-size:20px;
+    font-size:19px;
     font-weight: 300;
     text-align: center;
   }
@@ -216,7 +216,7 @@
   
   body {
     font-family: roboto;
-    grid-template-columns: 360px 360px 360px;
+    grid-template-columns: 370px 370px 370px;
   }
   
   /* Float four columns side by side */
@@ -240,6 +240,7 @@
   }
   
   /* Style the counter cards */
+  @media   (max-width: 330px){
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
@@ -258,6 +259,7 @@
     transition: 0.5s ease;
     margin:30px;
   }
+}
   
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
