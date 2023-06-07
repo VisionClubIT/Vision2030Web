@@ -363,9 +363,9 @@ EN
                     <div class="swiper-slide">
                         <div class="home-hero-slider-item">
                             <picture>
-                                <source media="(max-width: 376px)" srcset="media/ftbbtoaw/hm-banner-07.jpg">
+                            <source media="(max-width: 376px)" srcset="media/hh0c0vvl/copy-of-_ssg8457.jpg">
                                 <source media="(max-width: 768px)" srcset="media/ftbbtoaw/hm-banner-07.jpg"><!--king salman pic-->
-                                <source media="(max-width: 1440px)" srcset="media/ftbbtoaw/hm-banner-07.jpg">
+                                <source media="(max-width: 1440px)" srcset="media/hh0c0vvl/copy-of-_ssg8457.jpg">
                                 <source srcset="media/hh0c0vvl/copy-of-_ssg8457.jpg">
                                 <img src="media/hh0c0vvl/copy-of-_ssg8457.jpg" alt=" ">
                             </picture>
