@@ -68,6 +68,9 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background: rgb(96, 93, 84);
+    width: auto;
+    height: auto;
+
   }
   .card-stats .stat {
     padding:10px;
