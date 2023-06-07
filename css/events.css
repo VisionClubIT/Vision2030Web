@@ -229,10 +229,6 @@
   .row {
     margin: 0 -5px;
 
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-   
   }
   
   /* Clear floats after the columns */
@@ -263,7 +259,7 @@
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
       display: block;
