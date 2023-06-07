@@ -34,6 +34,8 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size:contain;
+    width: 100%;
+  height: auto;
   }
 }
 
@@ -41,10 +43,14 @@
   .card-text {
     grid-area: text;
     margin: 15px;
+    width: 100%;
+    height: auto;
   }
   .card-text .date {
     color: rgb(169, 162, 144);
     font-size:13px;
+    width: 100%;
+    height: auto;
   }
   .card-text p {
     color: grey;
@@ -209,12 +215,13 @@
   
   body {
     font-family: roboto;
+    grid-template-columns: 360px 360px 360px;
   }
   
   /* Float four columns side by side */
   .column {
     float: left;
-    width: 34%;
+    /* width: 34%; */
     padding: 0 10px;
   }
   
@@ -249,7 +256,7 @@
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 725px) {
     .column {
       width: 100%;
       display: block;
