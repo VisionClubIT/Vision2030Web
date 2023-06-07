@@ -246,8 +246,8 @@
     background-color: #f1f1f1;
 
     display: grid;
-    grid-template-columns: auto;   /* space*/
-    grid-template-rows: auto;
+    grid-template-columns: 300px;   /* space*/
+    grid-template-rows: 310px ;
     grid-template-areas: "image" "text" "stats";
     border-radius: 18px;
     background: white;
