@@ -248,8 +248,8 @@
     background-color: #f1f1f1;
 
     display: grid;
-    min-width: fit-content;
-    grid-template-columns: 275px;
+    max-width: fit-content;
+    grid-template-columns: 310px;
     /* grid-template-columns: 275px;   space, width of the card */
     grid-template-rows: 300px ;
     grid-template-areas: "image" "text" "stats";
