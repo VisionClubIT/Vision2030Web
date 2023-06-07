@@ -220,7 +220,7 @@
   
   /* Float four columns side by side */
   .column {
-    float: left;
+    /* float: left; */
     /* width: 34%; */
     padding: 0 10px;
   }
@@ -241,6 +241,7 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+
     width: auto;
     display: grid;
     grid-template-columns: 300px;
@@ -256,7 +257,7 @@
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
