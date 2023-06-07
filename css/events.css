@@ -1,4 +1,4 @@
-@media(max-width: 767px) {
+@media(min-width: 300px) {
 .body2 {
     width: 100vw;
     height: 100vh;
@@ -11,7 +11,7 @@
 }
 
 
-@media(max-width: 767px) {
+@media(min-width: 300px) {
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -27,7 +27,7 @@
   }
 }
 
-@media(max-width: 767px) {
+@media(min-width: 300px) {
   .card-image {
     grid-area: image;
     background: no-repeat center / contain;
@@ -37,7 +37,7 @@
   }
 }
 
-@media(max-width: 767px) {
+@media(min-width: 300px) {
   .card-text {
     grid-area: text;
     margin: 15px;
