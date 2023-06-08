@@ -25,7 +25,7 @@ EN
             <nav>
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">
+                        <a style=color:#ffff class="nav-link" href="index.php">
 <span>الصفحة الرئيسية</span>
 </a>
                     </li>
