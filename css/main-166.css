@@ -2800,7 +2800,8 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline,
+    
 }
 
 article,
@@ -2825,6 +2826,7 @@ body {
 ol,
 ul {
     list-style: none
+    
 }
 
 blockquote,
@@ -2852,6 +2854,7 @@ table {
 a {
     text-decoration: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    
 }
 
 input[type=text] {
@@ -4765,7 +4768,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
     background-color: #5897fb;
-    color: #fff
+    color: #1e1e1e;/*changed*/
 }
 
 .select2-container--default .select2-results__group {
