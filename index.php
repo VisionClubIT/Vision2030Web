@@ -93,7 +93,7 @@ include('Dynamic/Alert.php');
 
 </section>              
 <section class="c-block--remove-top-padding c-block b-featured-stories">
-                    <div class="bottom4-line"></div>
+                    <!-- <div class="bottom4-line"></div> -->
                     &nbsp; 
                     &nbsp;  
                     <div class="wp-container-4 wp-block-group t-sink l-sink s-sink alignfull is-style-group-dark-bg"><div class="wp-block-group__inner-container">
