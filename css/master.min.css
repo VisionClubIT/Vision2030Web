@@ -45,7 +45,7 @@ textarea {
 }
 
 ::selection {
-    background: #1e1e1e;
+    background: #ffff;/*changed*/
     color: #fff;
     text-shadow: none
 }
