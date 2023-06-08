@@ -455,7 +455,8 @@ $
                                         <div class="item-icon"><img src="img/icons/ico-green-2.svg" alt="img"></div>
                                         <div class="item-content">
                                             <h2>
-                                                <asp:Label runat="server" ID="BuildCount">20</asp:Label>
+                                                -
+                                                <!-- <asp:Label runat="server" ID="BuildCount">20</asp:Label> -->
                                             </h2>
                                             <h4>  <?php echo $post['M8']?> </h4>
 
