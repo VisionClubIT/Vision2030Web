@@ -121,7 +121,7 @@
         <div class="nav-left ">
             <a href="#">
 <img class="logo" src="img/VCLogo.png" alt=" ">
-<div class="bottom-line"></div>
+<!-- <div class="bottom-line"></div> -->
 </a>
             <ul class="lang-selection-list">
                 <li class="lang-selection-item">
@@ -129,7 +129,7 @@
 <!-- AR <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 6"> -->
 <path d="M1212.078,103.984l4,4,4-4" transform="translate(-1211.371 -103.277)" fill="none" stroke="#fff" stroke-width="2" />
 </svg>
-<div class="bottom3-line"></div>
+<!-- <div class="bottom3-line"></div> -->
 
 
 </a>
@@ -406,8 +406,8 @@ EN
                 </div>    
                 <div class="swiper-pagination">
                     <div class="button swiper-button-prev">
-                        <div class="bottom2-line"></div>
-                        <div class="bottom1-line"></div>
+                        <!-- <div class="bottom2-line"></div>
+                        <div class="bottom1-line"></div> -->
                         <span></span><img src="img/Ellipse 4.svg" />       
                     </div>
                     <div class="button swiper-button-next">
