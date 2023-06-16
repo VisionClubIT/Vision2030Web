@@ -18,7 +18,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/Saudi_Vision_2030_logo 1.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3><a href="">   تعريف برؤية المملكة 2030  </a></h3>&nbsp;
+                                    <h3><a href="">تمكين</a></h3>&nbsp;
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/a.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3><a href="">   نشر المعرفة برؤية المملكة 2030  </a></h3>&nbsp;
+                                    <h3><a href="">دعم</a></h3>&nbsp;
                                     <!--h4.service-number 50 خدمة-->
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/IMG_8873 1.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3><a href="">  المساهمة في تحقيق رؤية المملكة بكوادر الشباب </a></h3>&nbsp;
+                                    <h3><a href="">تفعيل</a></h3>&nbsp;
                                     <!--h4.service-number 50 خدمة-->
                                 </div>
                             </div>
