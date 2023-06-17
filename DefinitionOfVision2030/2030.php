@@ -26,7 +26,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/a.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3 style="font-weight: bold">>دعم</h3>&nbsp;
+                                    <h3 style="font-weight: bold">دعم</h3>&nbsp;
                                     <!--h4.service-number 50 خدمة-->
                                 </div>
                             </div>
