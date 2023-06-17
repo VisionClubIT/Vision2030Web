@@ -43,7 +43,7 @@ include_once 'Dynamic/Alert.php';
             <div class="tab-container">
                 <div id="project-item-1" class="tab-detail active-tab">
                     <div class="project-content" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="top-center" data-aos-once="true">
-                        <h4>دعم الطاقات وتحفيزها لتكوين مجتمع ريادي متوافق مع اهداف رؤية المملكة العربية السعودية ٢٠٣٠</h4>
+                        <h3>دعم الطاقات وتحفيزها لتكوين مجتمع ريادي متوافق مع اهداف رؤية المملكة العربية السعودية ٢٠٣٠</h3>
                         <p dir="rtl"></p>
                         <!-- <a href="" class="animated-link">
 <strong>Vision</strong>
