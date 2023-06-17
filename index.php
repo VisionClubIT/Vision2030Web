@@ -216,7 +216,17 @@ include('Dynamic/Alert.php');
                                 &nbsp;             <h2  class="h-default alignfull has-text-align-center is-style-XX-Large">  </h2>&nbsp;
         
                             
-                            <p> <?php echo $post['RUN']; ?> 
+                            <!-- <p> <?php echo $post['RUN']; ?>  -->
+                            <p Align="center">
+                            بدايةً من التاريخ المعدود ٢٠١٦، نرسم للحلم صورة 
+                            <br>
+                            <br>
+                            <br>
+                            مرورا بالتاريخ المشهود ٢٠٢٢،نرفع للتميز راية 
+                            <br>
+                            <br>
+                            <br>
+                            وصولًا للتاريخ الموعود ٢٠٣٠،نروي قصة وعد وجدارة
                             </p>
                             <div class="dd">    <img src="img/IMG_3725 2.svg" alt="" class="ac"></div>
 
