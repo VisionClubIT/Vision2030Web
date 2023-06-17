@@ -31,8 +31,8 @@ include_once 'Dynamic/Alert.php';
                 </h2>
                 <div class="tab-inner-wrapper" data-aos="fade-right" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="top-bottom" data-aos-once="true">
                     <a data-tab="#project-item-1" class="tab active" href="javascript:;">الرسالة</a>
-                    <a data-tab="#project-item-2" class="tab " href="javascript:;"> الهدف</a>
-                    <a data-tab="#project-item-3" class="tab " href="javascript:;">تحقيق الرؤية </a>
+                    <a data-tab="#project-item-2" class="tab " href="javascript:;">الهدف</a>
+                    <a data-tab="#project-item-3" class="tab " href="javascript:;">الرؤية</a>
                 </div>
                 <div class="view-all-btn-container">
                     <!-- <a class="view-all-btn" href="/ar/v2030/v2030-projects/">
@@ -43,8 +43,8 @@ include_once 'Dynamic/Alert.php';
             <div class="tab-container">
                 <div id="project-item-1" class="tab-detail active-tab">
                     <div class="project-content" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="top-center" data-aos-once="true">
-                        <h3>نادي كلماته أتت من المستقبل لتكتب حاضره</h3>
-                        <p dir="rtl">ولتتلى ھذه الكلمات بأصوات طلاب وطالبات جامعة الملك سعود </p>
+                        <h4>دعم الطاقات وتحفيزها لتكوين مجتمع ريادي متوافق مع اهداف رؤية المملكة العربية السعودية ٢٠٣٠</h4>
+                        <p dir="rtl"></p>
                         <!-- <a href="" class="animated-link">
 <strong>Vision</strong>
 <span>
@@ -77,8 +77,8 @@ include_once 'Dynamic/Alert.php';
                 </div>
                 <div id="project-item-2" class="tab-detail ">
                     <div class="project-content" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="top-center" data-aos-once="true">
-                        <h3> يسعى لتوظیف طاقات الشباب من جامعة الملك سعود فیما یوافق تطلعات رؤیة المملكة ٢٠٣٠ </h3>
-                        <p>  ذلك بتسخیر امكانیاتھم وقدراتھم لما یوافق التطلعات المستقبلیة وصولاً إلى مصاف كبرى الجامعات العالمیة  </p>
+                        <h3>تفعيل دور الشباب بما يتوافق مع سوق العمل حالياً ومستقبلياً</h3>
+                        <p>عن طريق إقامة برامج وورش عمل تدريبية و مجالس حوارية التي تسهم في تطوير مهاراتهم</p>
                         <!-- <a href="" class="animated-link">
 <strong>محتوى  </strong>
 <span>
@@ -107,7 +107,7 @@ include_once 'Dynamic/Alert.php';
                 </div>
                 <div id="project-item-3" class="tab-detail ">
                     <div class="project-content" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-anchor-placement="top-center" data-aos-once="true">
-                        <h3> لیكن نــادي الرؤية 2030 تبیان للمستقبل ومعجم الحاضر</h3>
+                        <h3>تمكين طلاب وطالبات جامعة الملك سعود للمشاركة في تحقيق رؤية المملكة العربية السعودية ٢٠٣٠</h3>
                         <p dir="rtl"> </p>
                         <!-- <a href="" class="animated-link">
 <strong>محتوى</strong>
