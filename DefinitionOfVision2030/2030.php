@@ -18,7 +18,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/Saudi_Vision_2030_logo 1.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3><a href="">تمكين</a></h3>&nbsp;
+                                    <h3 style="font-weight: bold"> تمكين</h3>&nbsp;
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/a.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3><a href="">دعم</a></h3>&nbsp;
+                                    <h3 style="font-weight: bold">>دعم</h3>&nbsp;
                                     <!--h4.service-number 50 خدمة-->
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                             <div class="card-header">
                                 <div class="item-icon"><img src="img/IMG_8873 1.svg" alt="img"></div>
                                 <div class="item-content">
-                                    <h3><a href="">تفعيل</a></h3>&nbsp;
+                                    <h3 style="font-weight: bold">تفعيل</h3>&nbsp;
                                     <!--h4.service-number 50 خدمة-->
                                 </div>
                             </div>
