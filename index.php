@@ -455,7 +455,7 @@ $
                                         <div class="item-icon"><img src="img/icons/ico-green-5.svg" alt="img"></div>
                                         <div class="item-content">
                                             <h2>
-                                                -
+                                                ١٠٣
                                                 <!-- <asp:Label runat="server" ID="HealthCount">199</asp:Label> -->
                                             </h2>
                                             <h4><?php echo $post['M7']?>   </h4>
@@ -466,7 +466,7 @@ $
                                         <div class="item-icon"><img src="img/icons/ico-green-2.svg" alt="img"></div>
                                         <div class="item-content">
                                             <h2>
-                                                10
+                                                ٢١
                                                 <!-- <asp:Label runat="server" ID="BuildCount">20</asp:Label> -->
                                             </h2>
                                             <h4>  <?php echo $post['M8']?> </h4>
@@ -477,7 +477,7 @@ $
                                         <div class="item-icon"><img src="img/icons/ico-green-3.svg" alt="img"></div>
                                         <div class="item-content">
                                             <h2>
-                                                -
+                                                ٦٦٠٠
                                                 <!-- <asp:Label runat="server" ID="AreaCount">150</asp:Label> -->
                                             </h2>
                                             <h4>  <?php echo $post['M9']?></h4>
