@@ -186,10 +186,31 @@ EN
                             </li> -->
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="ContactUs.php">
 <span>تواصل معنا</span>
+
 </a>
+                    </li> -->
+                    <li class="nav-item has-sub">
+                        <a class="nav-link" href="ContactUs.php">
+تواصل معنا
+<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 6">
+<path d="M1212.078,103.984l4,4,4-4" transform="translate(-1211.371 -103.277)" fill="none" stroke="#fff" stroke-width="2" />
+</svg>
+</a>
+                        <ul>
+                            <li>
+                                <a href="ContactUs.php">
+</span>  التواصل  <span>
+</a>
+                            </li>
+                            <li>
+                                <a href="https://forms.gle/1kPdPC4cBMiDhBuw7">
+</span> التقييم <span>
+ </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <ul class="mobile-menu-social">
