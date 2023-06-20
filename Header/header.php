@@ -193,7 +193,7 @@ EN
 </a>
                     </li> -->
                     <li class="nav-item has-sub">
-                        <a class="nav-link" href="ContactUs.php">
+                        <a style=color:#212121 class="nav-link" href="ContactUs.php">
 تواصل معنا
 <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 6">
 <path d="M1212.078,103.984l4,4,4-4" transform="translate(-1211.371 -103.277)" fill="none" stroke="#fff" stroke-width="2" />
