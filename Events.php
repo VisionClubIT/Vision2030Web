@@ -64,7 +64,9 @@ require_once ('config/database.php');
 	 	  <div  style='background-image: url( ".$row['image_events']."  );'  class='card-image'>  </div>
 	 	  <div class='card-text'>
 	 	  <span class='date'>   ".$row['date']." </span>
+		  <br>
 	 	  <h2> ".$row['name']." <br>  </h2>
+		  <br>
            <p> ".$row['description']." </p>
 	 	  </div>
 
