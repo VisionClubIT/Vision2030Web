@@ -192,6 +192,14 @@ EN
 
 </a>
                     </li>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forms.gle/1kPdPC4cBMiDhBuw7">
+<span>التقييم</span>
+
+</a>
+                    </li>
                     <!-- <li class="nav-item has-sub">
                         <a  class="nav-link" href="ContactUs.php">
 تواصل معنا

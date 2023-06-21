@@ -63,7 +63,12 @@ EN
 </a>
                     </li>
 
-                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forms.gle/1kPdPC4cBMiDhBuw7">
+<span>التقييم</span>
+
+</a>
+                    </li>
                 </ul>
             </nav>
         </div>
