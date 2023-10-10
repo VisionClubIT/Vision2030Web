@@ -377,11 +377,11 @@ EN
                                 </script>
                             </section></h2>
                             <picture>
-                                <source media="(max-width: 376px)" srcset="media/My Movie 2.gif">
-                                <source media="(max-width: 768px)" srcset="media/My Movie 2.gif">
-                                <source media="(max-width: 1440px)" srcset="media/My Movie 2.gif">
-                                <source srcset="media/My Movie 2.gif">
-                                <img src="media/My Movie 2.gif" alt=" ">
+                                <source media="(max-width: 376px)" srcset="img/theline.webp">
+                                <source media="(max-width: 768px)" srcset="img/theline.webp">
+                                <source media="(max-width: 1440px)" srcset="img/theline.webp">
+                                <source srcset="img/theline.webp">
+                                <img src="img/theline.webp" alt=" ">
                             </picture>
                             <h2 class="">
                                  يبني المستقبل من وليد حاضره، على أرض ماضيه
